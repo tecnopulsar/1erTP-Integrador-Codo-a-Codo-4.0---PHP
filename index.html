@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="heroe.css" />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="postal.css" />
+    <link rel="stylesheet" href="formulario.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>TP Integrador</title>
+  </head>
+  <body>
+    <main>
+      <header id="encabezado">
+        <div class="header__izq" >
+          <img
+            src="/img/codoacodo.png"
+            alt="logo codo a codo"
+            class="header__izq-logo"
+          />
+          <h2 class="header__izq-titulo">Conf Bs As</h2>
+        </div>
+        <div class="header__der">
+          <a class="header__der-item" href="#heroe" style="color: white"
+            >La Conferencia</a
+          >
+          <a class="header__der-item" href="#oradores" style="color: gray"
+            >Los oradores</a
+          >
+          <a class="header__der-item" href="#postal" style="color: gray"
+            >El lugar y la fecha</a
+          >
+          <a class="header__der-item" href="#formulario" style="color: gray"
+            >Conviértete en orador</a
+          >
+          <a class="header__der-item" href="#heroe" style="color: green"
+            >Comprar tickets</a
+          >
+        </div>
+      </header>
+      <section class="heroe" id="heroe">
+        <h2 class="heroe__titulo">Conf Bs As</h2>
+        <p class="heroe__descripcion">
+          Bs As llega por primera vez a Argentina. Un evento para compartir con
+          nuestra comunidad el conocimiento y experiencia de los expertos que
+          están creando el futuro de Internet. Ven a conocer a miembros del
+          evento, a otros estudiantes de Codo a Codo y los oradores de primer
+          nivel que tenemos para ti. Te esperamos!
+        </p>
+        <div class="heroe__botones">
+          <button class="btn heroe__botones-izq">Quiero ser orador</button>
+          <button class="btn heroe__botones-der">Comprar tickets</button>
+        </div>
+      </section>
+      <section class="oradores" id="oradores">
+        <h4 class="oradores__subtitulo">CONOCE A LOS</h4>
+        <h2 class="oradores__titulo">ORADORES</h2>
+        <ul class="card">
+          <li class="card__item">
+            <img src="/img/steve.jpg" alt="Steve jobs" class="card__item-img" />
+            <div class="card__item-tags">
+              <span style="color: black; background-color: yellow"
+                >JavaScript</span
+              >
+              <span style="color: white; background-color: rgb(37, 186, 223)"
+                >React</span
+              >
+            </div>
+            <h3 class="card__item-titulo">Stece Jobs</h3>
+            <p class="card__item-descripcion">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+              modi animi nobis, architecto quae recusandae consectetur veniam ad
+              quis sequi atque expedita quia asperiores, perspiciatis quibusdam
+              sapiente eos quas voluptates?
+            </p>
+          </li>
+          <li class="card__item">
+            <img src="/img/bill.jpg" alt="Bill Gates" class="card__item-img" />
+            <div class="card__item-tags">
+              <span style="color: black; background-color: yellow"
+                >JavaScript</span
+              >
+              <span style="color: white; background-color: rgb(37, 186, 223)"
+                >React</span
+              >
+            </div>
+            <h3 class="card__item-titulo">Bill Gates</h3>
+            <p class="card__item-descripcion">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+              modi animi nobis, architecto quae recusandae consectetur veniam ad
+              quis sequi atque expedita quia asperiores, perspiciatis quibusdam
+              sapiente eos quas voluptates?
+            </p>
+          </li>
+          <li class="card__item">
+            <img src="/img/ada.jpeg" alt="Ada" class="card__item-img" />
+            <div class="card__item-tags">
+              <span style="color: white; background-color: gray">Negocios</span>
+              <span style="color: white; background-color: red">Startups</span>
+            </div>
+            <h3 class="card__item-titulo">Ada Lovelace</h3>
+            <p class="card__item-descripcion">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+              modi animi nobis, architecto quae recusandae consectetur veniam ad
+              quis sequi atque expedita quia asperiores, perspiciatis quibusdam
+              sapiente eos quas voluptates?
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="postal" id="postal">
+        <div class="postal__colIzq">
+          <img
+            src="/img/honolulu.jpg"
+            alt="Honolulu"
+            class="postal__colIzq-img"
+          />
+        </div>
+        <div class="postal__colDer">
+          <h3 class="postal__colDer-titulo">Bs As - Octubre</h3>
+          <p class="postal__colDer-descripcion">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            nostrum provident eaque reprehenderit accusantium. Consequuntur
+            corporis laboriosam quia quibusdam, nihil aperiam sit et sequi
+            dolore adipisci minima sint error doloremque.
+          </p>
+          <button class="postal__colDer-btn">Conocé más</button>
+        </div>
+      </section>
+      <section class="formulario" id="formulario">
+        <h3 class="formulario__subtitulo">CONVIÉRTETE EN UN</h3>
+        <h2 class="formulario__titulo">ORADOR</h2>
+        <p class="formulario__descripcion">
+          Anótate como orador para dar una <u>charla ignite</u>.Cuéntanos de que
+          quieres hablar!
+        </p>
+        <form action="" class="formulario__form">
+          <div>
+            <input type="text" placeholder="Nombre" />
+            <input type="text" placeholder="Apellido" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Sobre que quieres hablar"
+          ></textarea>
+          <p class="formulario__recordatorio">
+            Recuerda incluir un titulo para tu charla
+          </p>
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+      <footer class="footer" id="footer">
+        <a class="footer__item" href="#">Preguntas frecuentes</a>
+        <a class="footer__item" href="#">Contáctanos</a>
+        <a class="footer__item" href="#">Prensa</a>
+        <a class="footer__item" href="#">Conferencias Frecuentes</a>
+        <a class="footer__item" href="#">Términos y condiciones</a>
+        <a class="footer__item" href="#">Privacidad</a>
+        <a class="footer__item" href="#">Estudiantes</a>
+      </footer>
+    </main>
+  </body>
+</html>

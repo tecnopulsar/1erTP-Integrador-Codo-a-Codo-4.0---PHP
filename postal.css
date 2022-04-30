@@ -1,0 +1,58 @@
+.postal{
+  width: 1200px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid red;
+}
+.postal__colIzq{
+  width: 600px;
+  height: 350px;
+}
+.postal__colIzq-img{
+  width: 100%;
+  height: 350px;
+}
+.postal__colDer{
+  width: 600px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start; 
+  color:white;
+  background-color: #343a40;
+}
+.postal__colDer-titulo{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  
+}
+.postal__colDer-descripcion{
+  width: 95%;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  line-height: 22px;
+  text-align:left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.postal__colDer-btn{
+  margin-bottom: 15px;
+  margin-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+  color:aliceblue;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.postal__colDer-btn:hover{
+  border: 1px solid white;
+  background-color: rgb(79, 101, 228);
+}
