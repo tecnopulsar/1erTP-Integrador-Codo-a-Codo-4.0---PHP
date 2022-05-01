@@ -2,7 +2,7 @@
   width: 100%;
   height: 380px;
   margin:0 auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/ba1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/ba1.jpg");
   background-repeat: no-repeat;
   background-size: 1200px 430px;
   display: flex;
